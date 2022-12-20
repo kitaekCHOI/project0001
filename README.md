@@ -42,8 +42,8 @@
 * 엔터로 칸을 띄면 다음 행으로 넘어가게 됩니다. \<br>은 하나의 문장에서 줄바꿈    
  
 ### Emphasis 강조
-* 기울여 쓰기(italic): \*또는 \_로 감싼 텍스트.
-* 두껍게 쓰기(bold): \**또는 \__로 감싼 텍스트.    
+* 기울여 쓰기(italic): \* 또는 \_ 로 감싼 텍스트.
+* 두껍게 쓰기(bold): \** 또는 \__ 로 감싼 텍스트.    
 * 취소선: \~~로 감싼 텍스트.   
 * 이탤릭체와 두껍게를 같이 사용할수 있습니다
  
@@ -83,16 +83,39 @@
 ### Backslash Escapes
 * 특수문자를 표현할 때, **표시될 문자앞에 \를 넣고 특수문자를 쓰면** 됩니다.
 
+### 이미지 
+* 링크와 비수하지만 앞에 !가 붙습니다.
+* 인라인 이미지 ![alt text](/test.png)
+* 링크 이미지 ![alt text](image_URL)
+* 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx"height="OOOpx"></img>와 같이 표현합니다.
 
----
+**이미지 파일에 마우스를 올렸을 때 커서 옆에 나오는 텍스트 설정**
+![텍스트](이미지파일경로.jpg "이미지이름")
+![텍스트](이미지파일URL "이미지이름")
 
+**링크와 이미지를 합친 문법(이미지를 링크로 사용**
+[ 텍스트](이미지파일URL ]( 링크URL )
 
+**<img>태그를 이용한 이미지 크기 조절**
+* <img src="https://i1.sndcdn.com/avatars-000639959556-jhitcq-t500x500.jpg" width="200" height="200" />
+* <!-- a태그를 이용한 이미지 링크 생성법-->
+<a href="#">
+	<img src="https://github.com/images/markdown_syntax.jpg" width="400px" alt="sample image">
+</a>
 
+##Links (Anchpr) 
+**외부링크**
+* [Google](http://www.google.com "구글")
 
- 
- 
+* [Naver](http://www.naver.com "네이버")
 
+* [Github](http://www.github.com "깃허브")
 
+구글 www.google.com
+
+네이버 <www.naver.com>
+
+My mail <jinkyukim.dev@gmail.com>
 
 
 
