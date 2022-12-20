@@ -34,7 +34,8 @@
 * H2는---로도 만들수 있습니다.      
 
   HORIZONTAL Roules 수평선
-  ===
+  ---
+  
 
 
  ### HORIZONTAL Roules 수평선
